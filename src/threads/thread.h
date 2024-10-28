@@ -138,4 +138,5 @@ void thread_set_nice (int);
 int thread_get_recent_cpu (void);
 int thread_get_load_avg (void);
 
+bool prio_cmp_fun(struct list_elem *elem_i, struct list_elem *elem_o,void *aux);
 #endif /**< threads/thread.h */
